@@ -7,3 +7,6 @@ These files are too large to include in the repo, but each is publicly available
 - [LendingClub_2007_to_2018Q4](https://www.kaggle.com/datasets/wordsforthewise/lending-club?select=accepted_2007_to_2018Q4.csv.gz)
 - [LCDataDictionary.xlsx](https://www.kaggle.com/datasets/ethon0426/lending-club-20072020q1)
 - [Master_Loan_Summary.csv](https://www.kaggle.com/datasets/skihikingkevin/online-p2p-lending)
+
+### Project 2: Currency Predictor
+- [USDJPY HistoricalPrices.csv](https://www.wsj.com/market-data/quotes/fx/USDJPY/historical-prices)
