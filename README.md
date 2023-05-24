@@ -6,9 +6,10 @@ I was fortunate enough to find [the bootcamp curriculum](./Rice%20Fintech%20Boot
 At best this is a beginner's roadmap, and lacks the context that comes with experience. If you want to get industry-ready, consider taking the edX bootcamp at your local college.
 
 # Module 1: Intro to Fintech
-Primer for concepts used throughout the course. 
+Primer for concepts used throughout the course.
 
 ## Fintech Landscape
+- [2013 *Nature* article on data-driven trading](https://www.nature.com/articles/srep01684)
 - [2022 Financial Brand Forum keynote](https://youtu.be/XJZovt0w3cU)
 - [Deloitte case studies](https://www2.deloitte.com/us/en/pages/finance-transformation/articles/finance-digital-transformation-case-studies.html)
 
