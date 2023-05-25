@@ -34,19 +34,19 @@ The fundamentals of data wrangling and financial analysis.
 - [Matplotlib deep dive](https://nbviewer.org/github/matplotlib/AnatomyOfMatplotlib/tree/master/)
 - [Create charts in Excel](https://pandas-xlsxwriter-charts.readthedocs.io/)
 
+## Time Series & Forecasting
+- [Financial analysis walkthrough](https://nbviewer.org/github/twiecki/financial-analysis-python-tutorial/tree/master/)
+- [Kaggle time series tutorials](https://www.kaggle.com/learn/time-series)
+
 ## Statistical Programming
 - [Statistical analysis walkthrough](https://randalolson.com/2012/08/06/statistical-analysis-made-easy-in-python/)
 - [SciPy user guide](https://docs.scipy.org/doc/scipy/tutorial/index.html)
 - [Scikit-learn tutorials](https://scikit-learn.org/stable/tutorial/index.html)
 
-## Time Series & Forecasting
-- [Financial analysis walkthrough](https://nbviewer.org/github/twiecki/financial-analysis-python-tutorial/tree/master/)
-- [Kaggle time series tutorials](https://www.kaggle.com/learn/time-series)
-
 ## Financial Modeling
-- [Coursera Intro to models course](https://www.coursera.org/learn/wharton-introduction-spreadsheets-models)
-- [Coursera Quantitative modeling course](https://www.coursera.org/learn/wharton-quantitative-modeling)
-- [Coursera Risk modeling course](https://www.coursera.org/learn/wharton-risk-models)
+- [Coursera intro to models course](https://www.coursera.org/learn/wharton-introduction-spreadsheets-models)
+- [Coursera quantitative modeling course](https://www.coursera.org/learn/wharton-quantitative-modeling)
+- [Coursera risk modeling course](https://www.coursera.org/learn/wharton-risk-models)
 
 ## Project 2: [Currency Predictor](./project-2-currency-predictor.ipynb)
 *Predict future movements in the value of the Japanese yen versus the U.S. dollar.*

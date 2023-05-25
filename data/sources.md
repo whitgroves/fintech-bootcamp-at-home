@@ -1,5 +1,5 @@
 # Data Sources
-These files are too large to include in the repo, but each is publicly available online.
+These files were too large to include in the repo, but each is publicly available online.
 
 ### Project 1: Risky Business
 - [LoanData_Bondora.csv](https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data)
@@ -10,3 +10,4 @@ These files are too large to include in the repo, but each is publicly available
 
 ### Project 2: Currency Predictor
 - [USDJPY HistoricalPrices.csv](https://www.wsj.com/market-data/quotes/fx/USDJPY/historical-prices)
+- [CURRENCY_US_XTUP_USDJPY.csv](https://www.marketwatch.com/investing/currency/usdjpy/download-data)
