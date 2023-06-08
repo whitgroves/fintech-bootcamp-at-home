@@ -3,7 +3,7 @@ I wanted to attend [this bootcamp](https://www.edx.org/boot-camps/fintech) but i
 
 I was fortunate enough to find [the bootcamp curriculum](./Rice%20Fintech%20Bootcamp%20Curriculum%20Overview%202020-2021.pdf) online, and based this study guide off of that. All resources listed are free unless otherwise indicated, and I am not affiliated with any of them.
 
-At best this is a beginner's roadmap, and lacks the context that comes with experience. If you want to get industry-ready, consider taking the edX bootcamp at your local college.
+At best this is a beginner's reference, and lacks the context that comes with experience. If you want to get industry-ready, consider taking the edX bootcamp at your local college.
 
 # Module 1: Intro to Fintech
 Primer for concepts used throughout the course.
@@ -43,25 +43,20 @@ The fundamentals of data wrangling and financial analysis.
 - [SciPy user guide](https://docs.scipy.org/doc/scipy/tutorial/index.html)
 - [Scikit-learn tutorials](https://scikit-learn.org/stable/tutorial/index.html)
 
-## Financial Modeling
-- [Coursera intro to models course](https://www.coursera.org/learn/wharton-introduction-spreadsheets-models)
-- [Coursera quantitative modeling course](https://www.coursera.org/learn/wharton-quantitative-modeling)
-- [Coursera risk modeling course](https://www.coursera.org/learn/wharton-risk-models)
-
 ## Project 2: [Currency Predictor](./project-2-currency-predictor.ipynb)
 *Predict future movements in the value of the Japanese yen versus the U.S. dollar.*
 
 # Module 3: Machine Learning
-Putting everything into practice.
+The good stuff.
 
 ## Machine Learning
 - [Google case studies](https://pair.withgoogle.com/guidebook/case-studies)
 - [Kaggle ML intro tutorials](https://www.kaggle.com/learn/intro-to-machine-learning)
 - [Kaggle ML intermediate tutorials](https://www.kaggle.com/learn/intermediate-machine-learning)
-- [Google data prep guide](https://developers.google.com/machine-learning/data-prep)
-- [Google testing and debugging guide](https://developers.google.com/machine-learning/testing-debugging)
+- [Google ML data prep and feature engineering guide](https://developers.google.com/machine-learning/data-prep)
+- [Google ML testing and debugging guide](https://developers.google.com/machine-learning/testing-debugging)
 
-## Project 3: Trading Bot
+## Project 3: [Trading Bot](./project-3-trading-bot.ipynb)
 *Program and build an algorithmic trading bot capable of responding to incoming market data in real-time.*
 
 ## Neural Networks
@@ -74,7 +69,7 @@ Putting everything into practice.
 *Build and evaluate deep learning models using both the FNG values and simple closing prices to determine if the FNG indicator provides a better signal for cryptocurrencies than the normal closing price data.*
 
 # Module 4: Blockchain and Cryptocurrency
-Good for much more than pizza.
+The *really* good stuff.
 
 ## Ethereum Ecosystem
 - [Voting smart contract tutorial](https://medium.com/buildbear/a-step-by-step-guide-to-building-and-deploying-a-voting-smart-contract-on-the-blockchain-468665034c9e)
