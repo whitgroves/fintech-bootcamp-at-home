@@ -1,4 +1,11 @@
-*.ipynb_checkpoints/*
-*.venv/*
+# local environment
+.ipynb_checkpoints/*
+.venv/*
+.vscode/*
+
+# API keys
+api/*.json
+
+# (oversized) data files
 *.csv
 *.xlsx
