@@ -1,9 +1,9 @@
 # fintech-bootcamp-at-home
-I wanted to attend [this bootcamp](https://www.edx.org/boot-camps/fintech) but it was out of my price range. I still wanted to learn the material, so this is my attempt at a budget version for myself. 
+I wanted to attend a fintech bootcamp but it was out of my price range. This is my budget version using [a copy of their curriculum](./Rice%20Fintech%20Bootcamp%20Curriculum%20Overview%202020-2021.pdf) I found online.
 
-I was fortunate enough to find [the bootcamp curriculum](./Rice%20Fintech%20Bootcamp%20Curriculum%20Overview%202020-2021.pdf) online, and based this study guide off of that. All resources listed are free unless otherwise indicated, and I am not affiliated with any of them.
+Unless otherwise indicated, all notebooks are written in [Python 3.11.x](https://www.python.org/downloads/), using a virtual environment with [these packages](./requirements.txt).
 
-At best this is a beginner's reference, and lacks the context that comes with experience. If you want to get industry-ready, consider taking the edX bootcamp at your local college.
+Most of these resources are free, and I am not affiliated with any of them or edX. If you want to get industry-ready, consider taking [their bootcamp](https://www.edx.org/boot-camps/fintech) at your local college. 
 
 # Module 1: Intro to Fintech
 Primer for concepts used throughout the course.

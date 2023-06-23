@@ -67,11 +67,13 @@ prompt-toolkit==3.0.38
 psutil==5.9.4
 pure-eval==0.2.2
 pycparser==2.21
+pydub==0.25.1
 Pygments==2.14.0
 pyparsing==3.0.9
 pyrsistent==0.19.3
 python-dateutil==2.8.2
 python-json-logger==2.0.7
+pytube==15.0.0
 pytz==2023.3
 pywin32==306
 pywinpty==2.0.10
@@ -92,7 +94,7 @@ stack-data==0.6.2
 terminado==0.17.1
 threadpoolctl==3.1.0
 tinycss2==1.2.1
-tornado==6.2
+tornado==6.3.2
 traitlets==5.9.0
 uri-template==1.2.0
 wcwidth==0.2.6
