@@ -1,79 +1,81 @@
 # fintech-bootcamp-at-home
-I wanted to attend a fintech bootcamp but it was out of my price range. This is my budget version using [a copy of their curriculum](./Rice%20Fintech%20Bootcamp%20Curriculum%20Overview%202020-2021.pdf) I found online.
+I wanted to attend [the edX fintech bootcamp](https://www.edx.org/boot-camps/fintech) in February 2023, but the price was too damn high. While researching financing options, I found [their course overview](./Rice%20Fintech%20Bootcamp%20Curriculum%20Overview%202020-2021.pdf) on LinkedIn. I figured I could backfill the modules with online resources to create my own study reference, then work through the projects to learn the material and test my understanding. This is the result.
 
-Unless otherwise indicated, all notebooks are written in [Python 3.11.x](https://www.python.org/downloads/), using a virtual environment with [these packages](./requirements.txt).
+The notebooks are my proof-of-work for each project. They're all written in [Python 3.11](https://www.python.org/downloads/) or [3.10 (Miniconda)](https://docs.conda.io/en/latest/miniconda-other-installer-links.html), and use [these datasets](./data/README.md). 
 
-Most of these resources are free, and I am not affiliated with any of them or edX. If you want to get industry-ready, consider taking [their bootcamp](https://www.edx.org/boot-camps/fintech) at your local college. 
+Since this was driven out of personal curiosity, it only covers areas I'm interested in and didn't already feel comfortable with. Anyone looking to use this study guide should tailor it to your own background knowledge and learning goals. If you're looking to get industry ready on a budget, consider something like the [OSDSM](https://github.com/datasciencemasters/go#the-open-source-data-science-masters).
 
-# Module 1: Intro to Fintech
-Primer for concepts used throughout the course.
+## Module 1: Intro to Fintech
+Primer for financial concepts used throughout the course, plus some context on the industry. 
 
-## Fintech Landscape
-- [2013 *Nature* article on data-driven trading](https://www.nature.com/articles/srep01684)
-- [2022 Financial Brand Forum keynote](https://youtu.be/XJZovt0w3cU)
-- [Deloitte case studies](https://www2.deloitte.com/us/en/pages/finance-transformation/articles/finance-digital-transformation-case-studies.html)
+### Fintech Landscape
+- Deloitte case studies: https://www2.deloitte.com/us/en/pages/finance-transformation/articles/finance-digital-transformation-case-studies.html
+- 2013 *Nature* paper on data-driven trading: https://www.nature.com/articles/srep01684
 
-## Financial Ratios
-- [6 basic financial ratios](https://www.investopedia.com/financial-edge/0910/6-basic-financial-ratios-and-what-they-tell-you.aspx)
-- [Financial ratio analysis primer](https://www.investopedia.com/terms/r/ratioanalysis.asp)
+### Financial Ratios
+- Intro to financial ratio analysis: https://www.investopedia.com/terms/r/ratioanalysis.asp
+- Investopedia hub: https://www.investopedia.com/financial-ratios-4689817
 
-## Project 1: [Risky Business](./project-1-risky-business.ipynb)
-*Assume the role of an analyst tasked with predicting credit risk using free data from peer-to-peer lending services.*
+### Project 1: [Risky Business](./project-1-risky-business.ipynb)
+*Note: This is placed a bit early, but I wanted to close the module with a deep dive into the programming side to find which technical areas I need to focus on.*
 
-# Module 2: Financial Programming
-The fundamentals of data wrangling and financial analysis.
+## Module 2: Financial Programming
+Learn about the Python libraries used in fintech and how to use them.
 
-## Data Analysis (Pandas)
-- [Kaggle pandas tutorials](https://www.kaggle.com/learn/pandas)
-- [Searchable recipes](https://www.skytowner.com/explore/pandas_recipes_reference)
-- [Exercise drills](https://github.com/guipsamora/pandas_exercises)
-- [Community tutorials](https://pandas.pydata.org/pandas-docs/stable/getting_started/tutorials.html)
+### Pandas
+- Kaggle course: https://www.kaggle.com/learn/pandas
+- Searchable recipes: https://www.skytowner.com/explore/pandas_recipes_reference
+- Exercise drills: https://github.com/guipsamora/pandas_exercises 
+- Community tutorials: https://pandas.pydata.org/pandas-docs/stable/getting_started/tutorials.html
 
-## Data Visualization
-- [Kaggle data viz tutorials](https://www.kaggle.com/learn/data-visualization)
-- [Matplotlib deep dive](https://nbviewer.org/github/matplotlib/AnatomyOfMatplotlib/tree/master/)
-- [Create charts in Excel](https://pandas-xlsxwriter-charts.readthedocs.io/)
+### Data Visualization
+- Kaggle course: https://www.kaggle.com/learn/data-visualization
+- Matplotlib deep dive: https://nbviewer.org/github/matplotlib/AnatomyOfMatplotlib/tree/master/
+- Export charts to Excel: https://pandas-xlsxwriter-charts.readthedocs.io/
+- PyViz tutorials: https://pyviz.org/tutorials/index.html
 
-## Time Series & Forecasting
-- [Financial analysis walkthrough](https://nbviewer.org/github/twiecki/financial-analysis-python-tutorial/tree/master/)
-- [Kaggle time series tutorials](https://www.kaggle.com/learn/time-series)
+### SciPy
+- Intro tutorial: https://www.w3schools.com/python/scipy/index.php
+- User guide: https://docs.scipy.org/doc/scipy/tutorial/index.html
+- Deep dive: https://scipy-lectures.org/
 
-## Statistical Programming
-- [Statistical analysis walkthrough](https://randalolson.com/2012/08/06/statistical-analysis-made-easy-in-python/)
-- [SciPy user guide](https://docs.scipy.org/doc/scipy/tutorial/index.html)
-- [Scikit-learn tutorials](https://scikit-learn.org/stable/tutorial/index.html)
+### Scikit-learn
+- Official tutorials: https://scikit-learn.org/stable/tutorial/index.html
 
-## Project 2: [Currency Predictor](./project-2-currency-predictor.ipynb)
-*Predict future movements in the value of the Japanese yen versus the U.S. dollar.*
+### Project 2: [Currency Predictor](./project-2-currency-predictor.ipynb)
 
-# Module 3: Machine Learning
-The good stuff.
+## Module 3: Machine Learning
+Learn how to make algorithmic trading bots and price prediction neural nets.
 
-## Machine Learning
-- [Google case studies](https://pair.withgoogle.com/guidebook/case-studies)
-- [Kaggle ML intro tutorials](https://www.kaggle.com/learn/intro-to-machine-learning)
-- [Kaggle ML intermediate tutorials](https://www.kaggle.com/learn/intermediate-machine-learning)
-- [Google ML data prep and feature engineering guide](https://developers.google.com/machine-learning/data-prep)
-- [Google ML testing and debugging guide](https://developers.google.com/machine-learning/testing-debugging)
+### Machine Learning
+- Kaggle course (beginner): https://www.kaggle.com/learn/intro-to-machine-learning
+- Kaggle course (intermediate): https://www.kaggle.com/learn/intermediate-machine-learning
+- Google foundational courses: https://developers.google.com/machine-learning/foundational-courses
+- Google guides: https://developers.google.com/machine-learning/guides
+- Google case studies: https://pair.withgoogle.com/guidebook/case-studies
 
-## Project 3: [Trading Bot](./project-3-trading-bot.ipynb)
-*Program and build an algorithmic trading bot capable of responding to incoming market data in real-time.*
+### Financial Modeling
+- Primer: https://www.investopedia.com/terms/f/financialmodeling.asp
+- Coursera x Wharton: https://www.coursera.org/specializations/wharton-business-financial-modeling
+- Coursera x Columbia: https://www.coursera.org/specializations/financialengineering
 
-## Neural Networks
-- [Kaggle deep learning tutorials](https://www.kaggle.com/learn/intro-to-deep-learning)
-- [Google recommendation systems guide](https://developers.google.com/machine-learning/recommendation)
-- [Kaggle computer vision tutorials](https://www.kaggle.com/learn/computer-vision)
-- [Google image classification guide](https://developers.google.com/machine-learning/practica/image-classification)
+### Project 3: [Trading Bot](./project-3-trading-bot.ipynb)
 
-## Project 4: Stock Predictor
-*Build and evaluate deep learning models using both the FNG values and simple closing prices to determine if the FNG indicator provides a better signal for cryptocurrencies than the normal closing price data.*
+### Neural Networks
+- Kaggle course: https://www.kaggle.com/learn/computer-vision
+- Google advanced courses: https://developers.google.com/machine-learning/advanced-courses
 
-# Module 4: Blockchain and Cryptocurrency
-The *really* good stuff.
+### Time Series Forecasting
+- Kaggle course: https://www.kaggle.com/learn/time-series
+- More tutorials: https://machinelearningmastery.com/start-here/#timeseries
 
-## Ethereum Ecosystem
-- [Voting smart contract tutorial](https://medium.com/buildbear/a-step-by-step-guide-to-building-and-deploying-a-voting-smart-contract-on-the-blockchain-468665034c9e)
-- [Udemy Ethereum and Solidity course](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/) ($95)
+### Project 4: [Stock Predictor](./project-4-stock-predictor.ipynb)
 
-## Project 5: Profit Splitter
-*Develop smart contracts with Solidity to pay employees, distribute profits to different tiers of employees, and distribute company shares for those employees in the equity incentive plan.*
+## Module 4: Blockchain and Cryptocurrency
+*"Hey, Bitcoin's up again!"*
+
+### Crypto Ecosystems
+- BTC whitepaper: https://bitcoin.org/bitcoin.pdf
+- ETH voting contract tutorial: https://medium.com/buildbear/a-step-by-step-guide-to-building-and-deploying-a-voting-smart-contract-on-the-blockchain-468665034c9e
+
+### Project 5: Profit Splitter

@@ -1,11 +1,9 @@
-# local environment
+# hidden folders
 .ipynb_checkpoints/*
 .venv/*
 .vscode/*
 
-# API keys
-api/*.json
-
-# (oversized) data files
+# hidden files
 *.csv
+*.json
 *.xlsx
