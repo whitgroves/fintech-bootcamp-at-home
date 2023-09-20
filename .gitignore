@@ -1,9 +1,7 @@
 # hidden folders
-.ipynb_checkpoints/*
-.venv/*
-.vscode/*
+.*/
 
-# hidden files
+# data files
 *.csv
 *.json
 *.xlsx
