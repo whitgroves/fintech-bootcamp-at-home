@@ -62,5 +62,6 @@ Learn how to make algorithmic trading bots and price prediction neural nets.
 
 ### Crypto Ecosystems
 - Bitcoin whitepaper: https://bitcoin.org/bitcoin.pdf
+- Solidity documentation: https://docs.soliditylang.org/en/v0.8.21/
 
-### Project 5: Profit Splitter
+### Project 5: [Profit Splitter](./project-5-profit-splitter/README.md)
