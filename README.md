@@ -21,12 +21,12 @@ Primer for financial concepts used throughout the course, plus some context on t
 Learn about the Python libraries used in fintech and how to use them.
 
 ### Pandas
-- Kaggle course: https://www.kaggle.com/learn/pandas
+- Kaggle course: https://www.kaggle.com/learn/pandas ([certificate](https://www.kaggle.com/learn/certification/whitgroves/pandas))
 - Searchable recipes: https://www.skytowner.com/explore/pandas_recipes_reference
 - Pandas docs: https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html
 
 ### Data Visualization
-- Kaggle course: https://www.kaggle.com/learn/data-visualization
+- Kaggle course: https://www.kaggle.com/learn/data-visualization ([certificate](https://www.kaggle.com/learn/certification/whitgroves/data-visualization))
 - Matplotlib docs: https://matplotlib.org/stable/users/index.html
 - Seaborn docs: https://seaborn.pydata.org/tutorial/introduction.html
 
@@ -41,18 +41,18 @@ Learn about the Python libraries used in fintech and how to use them.
 Learn how to make algorithmic trading bots and price prediction neural nets.
 
 ### Machine Learning
-- Kaggle course (intro): https://www.kaggle.com/learn/intro-to-machine-learning
-- Kaggle course (intermediate): https://www.kaggle.com/learn/intermediate-machine-learning
+- Kaggle course (intro): https://www.kaggle.com/learn/intro-to-machine-learning ([certificate](https://www.kaggle.com/learn/certification/whitgroves/intro-to-machine-learning))
+- Kaggle course (intermediate): https://www.kaggle.com/learn/intermediate-machine-learning ([certificate](https://www.kaggle.com/learn/certification/whitgroves/intermediate-machine-learning))
 - Google (general ML) case studies: https://pair.withgoogle.com/guidebook/case-studies
 
 ### Algorithmic Trading / Project 3: [Trading Bot](./project-3-trading-bot.ipynb)
 
 ### Time Series Forecasting
-- Kaggle course: https://www.kaggle.com/learn/time-series
+- Kaggle course: https://www.kaggle.com/learn/time-series ([certificate](https://www.kaggle.com/learn/certification/whitgroves/time-series))
 - Mastery tutorials: https://machinelearningmastery.com/start-here/#timeseries
 
 ### Neural Networks
-- Kaggle course: https://www.kaggle.com/learn/intro-to-deep-learning
+- Kaggle course: https://www.kaggle.com/learn/intro-to-deep-learning ([certificate](https://www.kaggle.com/learn/certification/whitgroves/intro-to-deep-learning))
 - Mastery tutorials: https://machinelearningmastery.com/start-here/#deep_learning_time_series
 
 ### Statistical Programming / Project 4: [Stock Predictor](./project-4-stock-predictor.ipynb)
