@@ -1,7 +1,7 @@
 # fintech-bootcamp-at-home
 I wanted to attend [the edX fintech bootcamp](https://www.edx.org/boot-camps/fintech) in February 2023, but the price was too damn high. While researching financing options, I found [their course overview](./Rice%20Fintech%20Bootcamp%20Curriculum%20Overview%202020-2021.pdf) on LinkedIn. From there I realized I had [some familiarity](https://github.com/whitgroves/data-science-intensive) with these topics, so I figured I could backfill the modules with online resources — similar to the [OSDSM](https://github.com/datasciencemasters/go#the-open-source-data-science-masters) — and work through the sample projects to confirm my understanding.
 
-To date, I've completed 4 sample projects using [these datasets](./data/README.md). Each notebook is written in [Python 3.11](https://www.python.org/downloads/) or [3.10 (Miniconda)](https://docs.conda.io/en/latest/miniconda-other-installer-links.html).
+To date, I've completed 5 projects using [these datasets](./data/README.md). Each notebook is written in [Python 3.11](https://www.python.org/downloads/) or [3.10 (Miniconda)](https://docs.conda.io/en/latest/miniconda-other-installer-links.html).
 
 ## Module 1: Intro to Fintech
 Primer for financial concepts used throughout the course, plus some context on the industry. 
@@ -18,7 +18,7 @@ Primer for financial concepts used throughout the course, plus some context on t
 >*I placed this a bit early, but the idea was to close the module with a walkthrough of the programming side to identify which areas I needed to focus on for later sections. Content-wise, this should probably be after the Data Visualization sub-unit.*
 
 ## Module 2: Financial Programming
-Learn about the Python libraries used in fintech and how to use them.
+Review of the Python libraries used in fintech and how to use them.
 
 ### Pandas
 - Kaggle course: https://www.kaggle.com/learn/pandas ([certificate](https://www.kaggle.com/learn/certification/whitgroves/pandas))
@@ -38,7 +38,7 @@ Learn about the Python libraries used in fintech and how to use them.
 ### Project 2: [Currency Predictor](./project-2-currency-predictor.ipynb)
 
 ## Module 3: Machine Learning
-Learn how to make algorithmic trading bots and price prediction neural nets.
+Learn how to make algorithmic trading bots and price prediction models.
 
 ### Machine Learning
 - Kaggle course (intro): https://www.kaggle.com/learn/intro-to-machine-learning ([certificate](https://www.kaggle.com/learn/certification/whitgroves/intro-to-machine-learning))
@@ -49,16 +49,16 @@ Learn how to make algorithmic trading bots and price prediction neural nets.
 
 ### Time Series Forecasting
 - Kaggle course: https://www.kaggle.com/learn/time-series ([certificate](https://www.kaggle.com/learn/certification/whitgroves/time-series))
-- Mastery tutorials: https://machinelearningmastery.com/start-here/#timeseries
+- ML Mastery tutorials: https://machinelearningmastery.com/start-here/#timeseries
 
 ### Neural Networks
-- Kaggle course: https://www.kaggle.com/learn/intro-to-deep-learning ([certificate](https://www.kaggle.com/learn/certification/whitgroves/intro-to-deep-learning))
-- Mastery tutorials: https://machinelearningmastery.com/start-here/#deep_learning_time_series
+- Kaggle deep learning course: https://www.kaggle.com/learn/intro-to-deep-learning ([certificate](https://www.kaggle.com/learn/certification/whitgroves/intro-to-deep-learning))
+- Kaggle computer vision course: https://www.kaggle.com/learn/computer-vision ([certificate](https://www.kaggle.com/learn/certification/whitgroves/computer-vision))
 
 ### Statistical Programming / Project 4: [Stock Predictor](./project-4-stock-predictor.ipynb)
 
 ## Module 4: Blockchain and Cryptocurrency
-*"Hey, DogeCoin is up again!"*
+A quick dip into smart contracts.
 
 ### Crypto Ecosystems
 - Bitcoin whitepaper: https://bitcoin.org/bitcoin.pdf

@@ -1,44 +1,48 @@
 // SPDX-License-Identifier: UNLICENSE
 pragma solidity ^0.8.2;
 
-/* Prompt goals:
-    > pay employees - done
-    > distribute profits to different tiers of employees
-        > take previous table and map wallets to payment tiers
-        > pay rate per tier - start at tier 0 and increment to top (lowest) tier
-            > each tier gets 50% of the remaining amount
-            > within each tier there is another N-way split
-    > distribute company shares for employees in equity plan
-        > setup transfer function for ERC20 tokens ... or does this work with receive() out of the gate?
-*/
-
 contract ProfitSplitter {
-
-    mapping(address payee => uint payscale) public payroll; // using payscale > 0 as active flag
+    
+    address public owner;
+    address payable[] public payees;
+    mapping(address payee => uint total) public totalDistributions; // audit trail
+    mapping(address payee => uint8 payscale) public payroll; // payscale == 0 is inactive
     uint public totalPayscale;
+    bool public inactive;
 
-    address payable[] payees; // includes past payees -- how to clean up?
     mapping(address payee => uint funds) distributions;
-    uint totalDistributions;
+    uint pendingDistributions;
 
-    constructor() payable {}
+    constructor() payable { owner = msg.sender; }
     
     // Any ETH received is immediately distributed proportional to totalPayscale, less pending distributions
     receive() external payable {
+        require(inactive == false, "Inactive contract - cannot receive funds.");
         require(totalPayscale > 0, "No employees on payroll.");
-        uint undistributed = address(this).balance - totalDistributions;
+        uint undistributed = address(this).balance - pendingDistributions;
         for (uint i = 0; i < payees.length; i++) {
-            uint payscale = payroll[payees[i]];
+            uint8 payscale = payroll[payees[i]];
             if (payscale == 0) continue;
             // https://docs.soliditylang.org/en/develop/units-and-global-variables.html#ether-units
-            uint scale = (payscale * 1e18) / totalPayscale;
+            uint scale = (uint(payscale) * 1e18) / totalPayscale;
             uint split = (undistributed * scale) / 1e18;
             distributions[payees[i]] = split;
-            totalDistributions += split;
+            pendingDistributions += split;
+            totalDistributions[payees[i]] += split;
         }
     }
 
-    function hire(address payable employee, uint payscale) external {
+    // https://docs.soliditylang.org/en/latest/common-patterns.html#withdrawal-from-contracts
+    function withdraw() external payable {
+        uint amount = distributions[msg.sender];
+        require(amount > 0, "No distributions available.");
+        distributions[msg.sender] = 0;
+        pendingDistributions -= amount;
+        payable(msg.sender).transfer(amount);
+    }
+
+    function hire(address payable employee, uint8 payscale) external {
+        require(msg.sender == owner, "Owner only.");
         require(payroll[employee] == 0, "Employee is already on payroll.");
         payroll[employee] = payscale;
         totalPayscale += payscale;
@@ -46,17 +50,28 @@ contract ProfitSplitter {
     }
 
     function fire(address employee) external {
+        require(msg.sender == owner, "Owner only.");
         require(payroll[employee] > 0, "Employee not found.");
         totalPayscale -= payroll[employee];
         payroll[employee] = 0;
     }
 
-    function withdraw() external payable {
-        uint amount = distributions[msg.sender];
-        require(amount > 0, "No distributions available.");
-        distributions[msg.sender] = 0;
-        totalDistributions -= amount;
-        payable(msg.sender).transfer(amount);
+    function update(address employee, uint8 payscale) external {
+        require(msg.sender == owner, "Owner only.");
+        require(payroll[employee] > 0, "Employee not found.");
+        totalPayscale -= payroll[employee];
+        payroll[employee] = payscale;
+        totalPayscale += payscale;
+    }
+
+    function transferOwner(address newOwner) external {
+        require(msg.sender == owner, "Owner only.");
+        owner = newOwner;
+    }
+
+    function toggleActive() external {
+        require(msg.sender == owner, "Owner only.");
+        inactive = !inactive;
     }
 
 }
