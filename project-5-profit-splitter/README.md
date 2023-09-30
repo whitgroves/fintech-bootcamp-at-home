@@ -11,7 +11,7 @@ With this, I planned to create a list of addresses to pay out, and map those to 
 > For example, if two employees are hired with a payscale of `100`, they would each get a 50/50 split of the funds received. If a third employee is added at `50`, now the first two would each get 40 percent, and the third employee would get 20 percent.
 
 ## Results
-It went mostly as expected, but it things like not being able to iterate through `mapping` keys or having to follow the [withdrawal pattern](https://docs.soliditylang.org/en/latest/common-patterns.html#withdrawal-from-contracts) for payouts that opened my eyes to how different Solidity is, despite it's familiar look.
+It went mostly as expected, but things like not being able to iterate through `mapping` keys or having to follow the [withdrawal pattern](https://docs.soliditylang.org/en/latest/common-patterns.html#withdrawal-from-contracts) for payouts opened my eyes to how different Solidity is, despite it's familiar look.
 
 The end result is [this contract](./ProfitSplitter.sol), which when deployed, distributes any ETH (or equivalent) immediately to all the addresses on its `payees` list, proportional to their respective payscales.
 
