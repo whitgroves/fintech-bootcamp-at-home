@@ -26,7 +26,7 @@ contract ProfitSplitter {
             // https://docs.soliditylang.org/en/develop/units-and-global-variables.html#ether-units
             uint scale = (uint(payscale) * 1e18) / totalPayscale;
             uint split = (undistributed * scale) / 1e18;
-            distributions[payees[i]] = split;
+            distributions[payees[i]] += split;
             pendingDistributions += split;
             totalDistributions[payees[i]] += split;
         }
