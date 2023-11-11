@@ -1,7 +1,9 @@
 # hidden folders
+__*__/
 .*/
 
-# data files
+# hidden files
 *.csv
 *.json
 *.xlsx
+*.log
